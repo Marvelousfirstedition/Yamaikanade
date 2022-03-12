@@ -17,6 +17,8 @@ a{
 .header{
     padding: 120px 10px 120px 10px;
     background-color: aqua;
+    height: 100px;
+    width: 200px;
 }
 
 .main{
@@ -47,16 +49,10 @@ a{
     background-color:aliceblue;
 }
 
-message-wrapper h3{
+.message-wrapper h3{
     text-align: center;
     font-size: 60px
 
-}
-
-header{
-    height: 200px;
-    width: 400px;
-    background-color: blueviolet;
 }
 
 .header-logo{
@@ -73,4 +69,5 @@ header{
     display: block;
     margin: 0 auto;
     max-width: 100%;
+    float:center;
 }
