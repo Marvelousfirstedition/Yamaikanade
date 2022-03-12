@@ -16,7 +16,7 @@ a{
 
 .header{
     background-color: aqua;
-    height: 100px;
+    height: 200px;
 }
 
 .header-logo{
@@ -52,6 +52,7 @@ a{
 
 .footer{
     background-color:aliceblue;
+    height: 150px;
 }
 
 .footer-logo{
