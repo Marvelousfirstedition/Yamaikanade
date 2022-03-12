@@ -16,7 +16,7 @@ a{
 
 .header{
     background-color: aqua;
-    height: 200px;
+    height: 100px;
 }
 
 .header-logo{
@@ -29,39 +29,28 @@ a{
     float: right; }
 
 
-.main{
-    background-color: aquamarine;
-    height: 1500px;
-    width: 300px;
-    
+.top-wrapper{
+    float: left;
+    background-color:azure;
 }
 
-.main h1{
+.lesson-wrapper h1{
+    text-align: center;
     font-size: 60px;
-    color: blue;
-
 }
 
-.main h2{
+.lesson-wrapper h2{
+    text-align: center;
+    font-size: 60px;
+}
+
+.lesson-wrapper h3{
+    text-align: center;
     font-size: 30px;
-    color: blue;
 }
 
-.main p{
-    font-size: 70px;
+.lesson-wrapper p{
+    text-align: center;
+    font-size: 60px;
     color:blue;
 }
-
-.footer{
-    background-color:aliceblue;
-    height: 150px;
-}
-
-.footer-logo{
-    text-align: center;
-    font-size: 60px
-
-}
-
-
-
