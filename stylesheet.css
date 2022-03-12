@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear:left
+}
+
+.top-wrapper{
+    padding: 120px 10px 120px 10px;
+    background-color: aqua;
+}
+
+.top-wrapper img{
+    background-color:aqua;
+    float: left;
+    width: 90%;
+    top: 40%;
+}
+
+.lesson-wrapper h1{
+    opacity: 0.3;
+    font-size: 60px;
+    letter-spacing: 7px;
+
+}
+
+.lesson-wrapper h2{
+    opacity: 0.3;
+    font-size: 30px;
+    letter-spacing: 7px;
+}
+
+.lesson-wrapper p{
+    opacity: 0.3;
+    font-size: 70px;
+    color:blue
+}
+
+.message-wrapper{
+    background-color:aliceblue;
+}
+
+message-wrapper h3{
+    text-align: center;
+    font-size: 60px
+
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+    top: 2;
+    z-index: 7;
+}
+
+.header-logo{
+    font-size: 70px;
+}
+
+.header-list a{
+    float: left;
+    font-size: 50px
+}
