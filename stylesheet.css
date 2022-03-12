@@ -53,11 +53,11 @@ a{
     color:blue;
 }
 
-.message-wrapper{
+.footer{
     background-color:aliceblue;
 }
 
-.message-wrapper h3{
+.footer h3{
     text-align: center;
     font-size: 60px
 
@@ -73,9 +73,3 @@ a{
     padding: 30px 15px 30px 15px;
 }
 
-.iframe{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    float:center;
-}
