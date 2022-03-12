@@ -15,7 +15,6 @@ a{
 }
 
 .header{
-    padding: 120px 100px 120px 100px;
     background-color: aqua;
     height: 100px;
 }
@@ -24,7 +23,7 @@ a{
     font-size: 60px;
     color: blueviolet;}
 
-.header-list a{
+.header-list ul{
     font-size: 30px;
     padding: 30px 40px 30px 40px;
     float: right; }
@@ -55,19 +54,11 @@ a{
     background-color:aliceblue;
 }
 
-.footer h3{
+.footer-logo{
     text-align: center;
     font-size: 60px
 
 }
 
-.header-logo{
-    font-size: 70px;
-}
 
-.header-list a{
-    float: right;
-    font-size: 50px;
-    padding: 30px 15px 30px 15px;
-}
 
