@@ -34,12 +34,12 @@ a{
     background-color:azure;
 }
 
-.lesson-wrapper h2{
+.lesson-wrapper h1{
     text-align: center;
     font-size: 60px;
 }
 
-.lesson-wrapper h3{
+.lesson-wrapper h2{
     text-align: center;
     font-size: 30px;
 }
