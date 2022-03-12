@@ -21,6 +21,16 @@ a{
     width: 200px;
 }
 
+.header-logo{
+    font-size: 60px;
+    color: blueviolet;}
+
+.header-list a{
+    font-size: 30px;
+    padding: 30px 15px 30px 15px;
+    float: left; }
+
+
 .main{
     background-color: aquamarine;
     height: 700px;
@@ -29,20 +39,18 @@ a{
 .main h1{
     opacity: 0.3;
     font-size: 60px;
-    letter-spacing: 7px;
+    color: blue;
 
 }
 
 .main h2{
-    opacity: 0.3;
     font-size: 30px;
-    letter-spacing: 7px;
+    color: blue;
 }
 
 .main p{
-    opacity: 0.3;
     font-size: 70px;
-    color:blue
+    color:blue;
 }
 
 .message-wrapper{
@@ -65,7 +73,7 @@ a{
     padding: 30px 15px 30px 15px;
 }
 
-.youtube{
+.iframe{
     display: block;
     margin: 0 auto;
     max-width: 100%;
