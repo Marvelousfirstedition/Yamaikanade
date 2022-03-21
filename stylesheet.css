@@ -41,6 +41,7 @@ a{
     height: 500px;
     width: 100%;
     text-align: center;
+    float: left;
     background-size: cover;
 }
 
