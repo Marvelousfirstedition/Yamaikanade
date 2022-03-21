@@ -24,9 +24,8 @@ a{
     font-size: 40px;
     color: blueviolet;}
 
-.header-list a{
-    display: flex;
-    justify-content: space-between;
+.header-list ul{
+    display:inline-block;
     font-size: 30px;
     padding: 30px 40px 30px 40px;
 }
@@ -34,6 +33,7 @@ a{
 
 .top-wrapper{
     background-image:url(photo0000-5000.jpg) ;
+    background-size: cover;
     height: 700px;
     width: 100%;
 }
