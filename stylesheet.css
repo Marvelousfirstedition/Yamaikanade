@@ -16,18 +16,18 @@ a{
 
 .header{
     background-color: aqua;
-    height: 100px;
+    height: 400px;
+    width: 100%;
 }
 
 .header-logo{
-    font-size: 60px;
+    font-size: 40px;
     color: blueviolet;}
 
 .header-list ul{
-    font-size: 50px;
+    font-size: 30px;
     padding: 30px 40px 30px 40px;
     display: inline-block;
-    width: 30%; 
 }
 
 
@@ -37,21 +37,21 @@ a{
     height: 100px;
 }
 
-.lesson-wrapper {
+.profile {
     background-image: url(photo0000-5000.jpg);
 }
 
-.lesson-wrapper h1{
+.profile h1{
     text-align: center;
     font-size: 60px;
 }
 
-.lesson-wrapper h2{
+.profile h2{
     display: inline-block;
     font-size: 30px;
 }
 
-.lesson-wrapper p{
+.profile p{
     text-align: center;
     font-size: 60px;
     color:blue;
