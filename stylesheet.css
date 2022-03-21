@@ -46,10 +46,12 @@ a{
 
 .container{
     width: 33%;
+    text-align: center;
 }
 
 .container img{
     mix-blend-mode: multiply;
+    text-align: center;
 }
 
 .profile {
