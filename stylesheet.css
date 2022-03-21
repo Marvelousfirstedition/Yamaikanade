@@ -16,7 +16,7 @@ a{
 
 .header{
     background-color: aqua;
-    height: 200px;
+    height: 100px;
 }
 
 .header-logo{
@@ -34,6 +34,7 @@ a{
 .top-wrapper{
     display: inline-block;
     background-image:url(photo0000-2599.jpg) ;
+    height: 100px;
 }
 
 .lesson-wrapper {
@@ -60,8 +61,8 @@ a{
 .youtube{
     position: relative;
     width: 100%;
-    overflow: auto;
     padding-bottom: 56.25%;
     display: inline-block;
     text-align: center;
 }
+
