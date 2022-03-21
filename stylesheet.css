@@ -24,21 +24,39 @@ a{
     font-size: 40px;
     color: blueviolet;}
 
+.header-list{
+    display: flex;
+}
+
 .header-list ul{
     font-size: 30px;
     padding: 30px 40px 30px 40px;
-    display: inline-block;
+    flex: auto;
 }
 
 
 .top-wrapper{
     display: inline-block;
     background-image:url(photo0000-2599.jpg) ;
-    height: 100px;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.container{
+    float: left;
+    width: 33%;
+}
+
+.container img{
+    mix-blend-mode: multiply;
 }
 
 .profile {
     background-image: url(photo0000-5000.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
 }
 
 .profile h1{
@@ -61,8 +79,8 @@ a{
 .video-wrapper {
     position: relative;
     width: 100%;
+    height: 100%;
     padding-bottom: 56.25%;
     display: inline-block;
     text-align: center;
 }
-
