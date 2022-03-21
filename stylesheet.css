@@ -42,6 +42,7 @@ a{
     width: 100%;
     background-size: cover;   
     text-align: center;
+    display: inline-block
 }
 
 .container{
