@@ -24,9 +24,11 @@ a{
     color: blueviolet;}
 
 .header-list ul{
-    font-size: 30px;
+    font-size: 50px;
     padding: 30px 40px 30px 40px;
-    float: right; }
+    text-align: center; 
+    width: 30%; 
+}
 
 
 .top-wrapper{
@@ -48,4 +50,6 @@ a{
     text-align: center;
     font-size: 60px;
     color:blue;
+
 }
+
