@@ -26,6 +26,7 @@ a{
 
 .header-list{
     display: flex;
+    justify-content: space-between;
 }
 
 .header-list ul{
@@ -37,24 +38,27 @@ a{
 
 .top-wrapper{
     display: inline-block;
-    background-image:url(photo0000-2599.jpg) ;
+    background-image:url(photo0000-5000.jpg) ;
     height: 500px;
     width: 100%;
     background-size: cover;
 }
 
 .container{
-    float: left;
+    display: inline-block;
+    text-align: center;
     width: 33%;
 }
 
 .container img{
     mix-blend-mode: multiply;
+    display: inline-block;
+    text-align: center;
 }
 
 .profile {
-    background-image: url(photo0000-5000.jpg);
-    height: 300px;
+    background-image: url(photo0000-2599.jpg);
+    height: 500px;
     width: 100%;
     background-size: cover;
 }
@@ -62,24 +66,26 @@ a{
 .profile h1{
     text-align: center;
     font-size: 60px;
+    color:azure
 }
 
 .profile h2{
     display: inline-block;
     font-size: 30px;
+    color: azure
 }
 
 .profile p{
     text-align: center;
     font-size: 60px;
-    color:blue;
+    color:white;
 
 }
 
 .video-wrapper {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100px;
     padding-bottom: 56.25%;
     display: inline-block;
     text-align: center;
