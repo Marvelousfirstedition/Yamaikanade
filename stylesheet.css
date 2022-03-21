@@ -37,7 +37,6 @@ a{
 
 
 .top-wrapper{
-    display: inline-block;
     background-image:url(photo0000-5000.jpg) ;
     height: 500px;
     width: 100%;
@@ -46,7 +45,6 @@ a{
 }
 
 .container{
-    display: inline-block;
     text-align: center;
     width: 33%;
 }
