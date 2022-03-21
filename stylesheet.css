@@ -40,13 +40,12 @@ a{
     background-image:url(photo0000-5000.jpg) ;
     height: 500px;
     width: 100%;
-    text-align: center;
-    float: left;
-    background-size: cover;
+    background-size: cover;   
 }
 
 .container{
     width: 33%;
+    display: inline-block
 }
 
 .container img{
