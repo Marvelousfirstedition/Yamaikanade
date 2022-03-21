@@ -24,15 +24,11 @@ a{
     font-size: 40px;
     color: blueviolet;}
 
-.header-list{
+.header-list a{
     display: flex;
     justify-content: space-between;
-}
-
-.header-list ul{
     font-size: 30px;
     padding: 30px 40px 30px 40px;
-    flex: auto;
 }
 
 
@@ -40,18 +36,21 @@ a{
     background-image:url(photo0000-5000.jpg) ;
     height: 700px;
     width: 100%;
-    background-size: cover;   
-    display: inline-block;
 }
+
+li{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
 
 .container{
     width: 33%;
-    display: inline-block;
 }
 
 .container img{
     mix-blend-mode: multiply;
-    display: inline-block;
 }
 
 .profile {
