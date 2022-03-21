@@ -41,17 +41,15 @@ a{
     height: 500px;
     width: 100%;
     background-size: cover;   
+    float: left;
 }
 
 .container{
     width: 33%;
-    display: inline-block
 }
 
 .container img{
     mix-blend-mode: multiply;
-    display: inline-block;
-    text-align: center;
 }
 
 .profile {
