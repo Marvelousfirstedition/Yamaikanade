@@ -41,6 +41,7 @@ a{
     background-image:url(photo0000-5000.jpg) ;
     height: 500px;
     width: 100%;
+    text-align: center;
     background-size: cover;
 }
 
