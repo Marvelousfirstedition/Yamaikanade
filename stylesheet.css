@@ -34,7 +34,7 @@ a{
 .top-wrapper{
     background-image:url(photo0000-5000.jpg) ;
     background-size: cover;
-    height: 700px;
+    height: 730px;
     width: 100%;
 }
 
@@ -50,12 +50,17 @@ li{
 }
 
 .container img{
-    mix-blend-mode: multiply;
+    opacity: 0.5;
+}
+
+.container img{
+    opacity: 1;
+    transition: .5s;
 }
 
 .profile {
     background-image: url(photo0000-2599.jpg);
-    height: 500px;
+    height: 550px;
     width: 100%;
     background-size: cover;
 }
@@ -63,20 +68,22 @@ li{
 .profile h1{
     text-align: center;
     font-size: 60px;
-    color:azure
+    color:blue;
+    text-shadow: 1px 1px 8px white;
 }
 
 .profile h2{
     display: inline-block;
     font-size: 30px;
-    color: azure
+    color: azure;
+    text-shadow: 1px 1px 8px white;
 }
 
 .profile p{
     text-align: center;
     font-size: 60px;
     color:white;
-
+    text-shadow: 1px 1px 8px whitesmoke;
 }
 
 .video-wrapper {
