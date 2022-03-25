@@ -50,12 +50,7 @@ li{
 }
 
 .container img{
-    opacity: 0.5;
-}
-
-.container img{
-    opacity: 1;
-    transition: .5s;
+    opacity: 0.2;
 }
 
 .profile {
