@@ -101,8 +101,8 @@ img{
     background-size: cover;
     height: 1000px;
     margin: 0 auto;
-    float: left;
-    width: 33%;
+    
+    
 }
 
 
@@ -120,6 +120,11 @@ img{
 }
 
 .Commodity{
+    float: left;
+    width: 33%;
+}
+
+.Commodity-icon{
     position: relative;
 }
 
