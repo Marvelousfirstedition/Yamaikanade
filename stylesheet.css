@@ -75,7 +75,7 @@ img{
     background-image:url(photo0000-5000.jpg) ;
     background-size: cover;
     height: 768px;
-    width: 1200px;
+    width: 100%;
     margin: 0;
 }
 
@@ -118,9 +118,9 @@ img{
     margin: 0;
 }
 
-@media all and (max-width: 1500px){
+@media all and (max-width: 1200px){
     .top-wrapper{
-        width: 1200px;
+        width: 100%;
     }
     
     ul{
@@ -154,7 +154,7 @@ ul{
 }
 }
 
-@media all and (max-width: 700px){
+@media all and (max-width: 670px){
     .top-wrapper{
         width: 700px;
     }
