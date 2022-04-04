@@ -75,14 +75,14 @@ img{
     background-image:url(photo0000-5000.jpg) ;
     background-size: cover;
     height: 768px;
-    width: 100%;
+    width: 1200px;
     margin: 0;
 }
 
 .profile {
     background-image: url(photo0000-2599.jpg);
     height: 768px;
-    width: 100%;
+    width: 1200px;
     background-size: cover;
     margin: 0;
 }
@@ -156,7 +156,7 @@ ul{
 
 @media all and (max-width: 670px){
     .top-wrapper{
-        width: 700px;
+        width: 670px;
     }
 
     ul{
@@ -164,10 +164,10 @@ ul{
     }
 
     .profile{
-        width: 700px;
+        width: 670px;
     }
 
     .video-wrapper{
-        width: 700px;
+        width: 670px;
     }
 }
