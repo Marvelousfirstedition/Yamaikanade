@@ -75,7 +75,7 @@ img{
     background-image:url(photo0000-5000.jpg) ;
     background-size: cover;
     height: 768px;
-    width: 100%;
+    width: 1200px;
     margin: 0;
 }
 
@@ -120,7 +120,7 @@ img{
 
 @media all and (max-width: 1500px){
     .top-wrapper{
-        width: 100%;
+        width: 1200px;
     }
     
     ul{
@@ -138,7 +138,7 @@ img{
 
 @media all and (max-width: 1000px){
 .top-wrapper{
-    width: 70%;
+    width: 1000px;
 }
 
 ul{
@@ -146,17 +146,17 @@ ul{
 }
 
 .profile{
-    width: 70%;
+    width: 1000px;
 }
 
 .video-wrapper{
-    width: 70%;
+    width: 1000px;
 }
 }
 
 @media all and (max-width: 700px){
     .top-wrapper{
-        width: 100%;
+        width: 700px;
     }
 
     ul{
@@ -164,10 +164,10 @@ ul{
     }
 
     .profile{
-        width: 100%;
+        width: 700px;
     }
 
     .video-wrapper{
-        width: 100%;
+        width: 700px;
     }
 }
