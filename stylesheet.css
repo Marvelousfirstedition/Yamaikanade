@@ -17,7 +17,7 @@ a{
 .header{
     background-color: aqua;
     height: 200px;
-    width: 1000px;
+    width: 1080px;
     margin: 0;
 }
 
@@ -27,11 +27,11 @@ a{
 
 ul{
     text-align: center;
-    font-size: 6px;
+    font-size: 80px;
 }
 
 .slider{
-    width: 800px;
+    width: 1080px;
     height: 700px;
     overflow: hidden;
     margin: 0 auto;
@@ -47,7 +47,7 @@ img{
 }
 
 .slider-inner{
-    width: 200%;
+    width: 300%;
     animation: slider 15s infinite ease;
 }
 
@@ -74,14 +74,14 @@ img{
 .top-wrapper{
     background-image:url(photo0000-5000.jpg) ;
     background-size: cover;
-    height: 800px;
+    height: 768px;
     width: 100%;
     margin: 0;
 }
 
 .profile {
     background-image: url(photo0000-2599.jpg);
-    height: 600px;
+    height: 768px;
     width: 100%;
     background-size: cover;
     margin: 0;
