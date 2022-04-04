@@ -18,7 +18,7 @@ a{
     background-color: aqua;
     height: 300px;
     width: 1200px;
-    margin: 0;
+    margin-right: 0;
 }
 
 .header-logo{
@@ -76,7 +76,8 @@ img{
     background-size: cover;
     height: 768px;
     width: 1200px;
-    margin: 0;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 .profile {
@@ -84,7 +85,8 @@ img{
     height: 768px;
     width: 1200px;
     background-size: cover;
-    margin: 0;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 .profile h1{
@@ -139,6 +141,7 @@ img{
 @media all and (max-width: 1000px){
 .top-wrapper{
     width: 1000px;
+    margin-right: 0;
 }
 
 ul{
@@ -147,16 +150,19 @@ ul{
 
 .profile{
     width: 1000px;
+    margin-right: 0;
 }
 
 .video-wrapper{
     width: 1000px;
+    margin-right: 0;
 }
 }
 
 @media all and (max-width: 670px){
     .top-wrapper{
         width: 670px;
+        margin-right: 0;
     }
 
     ul{
@@ -165,6 +171,7 @@ ul{
 
     .profile{
         width: 670px;
+        margin-right: 0;
     }
 
     .video-wrapper{
