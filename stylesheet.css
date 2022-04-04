@@ -17,7 +17,7 @@ a{
 .header{
     background-color: aqua;
     height: 300px;
-    width: 1080px;
+    width: 1200px;
     margin: 0;
 }
 
@@ -27,18 +27,18 @@ a{
 
 ul{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .slider{
-    width: 1080px;
+    width: 1200px;
     height: 700px;
     overflow: hidden;
     margin: 0 auto;
 }
 
 .slider-item{
-    width: 300px;
+    width: 400px;
     float: left;
 }
 
@@ -57,11 +57,11 @@ img{
     }
 
     33%{
-        transform: translateX(-270px);
+        transform: translateX(-300px);
     }
 
     66%{
-        transform: translateX(-540px);
+        transform: translateX(-600px);
     }
 
     100%{
