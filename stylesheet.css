@@ -136,9 +136,9 @@ img{
     }
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 1000px){
 .top-wrapper{
-    width: 800px;
+    width: 70%;
 }
 
 ul{
@@ -146,17 +146,17 @@ ul{
 }
 
 .profile{
-    width: 800px;
+    width: 70%;
 }
 
 .video-wrapper{
-    width: 800px;
+    width: 70%;
 }
 }
 
 @media all and (max-width: 700px){
     .top-wrapper{
-        width: 700px;
+        width: 100%;
     }
 
     ul{
@@ -164,10 +164,10 @@ ul{
     }
 
     .profile{
-        width: 700px;
+        width: 100%;
     }
 
     .video-wrapper{
-        width: 700px;
+        width: 100%;
     }
 }
