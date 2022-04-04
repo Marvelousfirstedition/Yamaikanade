@@ -27,7 +27,8 @@ a{
 
 ul{
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
+    float: left;
 }
 
 .slider{
