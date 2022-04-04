@@ -18,16 +18,55 @@ a{
     background-color: aqua;
     height: 200px;
     width: 100%;
+    margin: 0;
 }
 
 .header-logo{
     font-size: 40px;
     color: blueviolet;}
 
-.header-list ul{
-    display:inline-block;
-    font-size: 30px;
-    padding: 30px 40px 30px 40px;
+ul{
+    text-align: center;
+}
+
+.slider{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider-item{
+    width: 400px;
+    float: left;
+}
+
+img{
+    width: 100%;
+}
+
+.slider-inner{
+    width: 200%;
+    animation: slider 15s infinite ease;
+}
+
+@keyframes slider{
+    0%{
+        transform: translateX(1);
+    }
+
+    33%{
+        transform: translateX(-270px);
+    }
+
+    66%{
+        transform: translateX(-540px);
+    }
+
+    100%{
+        transform: translateX(1);
+    }
+
 }
 
 
@@ -36,21 +75,7 @@ a{
     background-size: cover;
     height: 730px;
     width: 100%;
-}
-
-li{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-
-
-.container{
-    width: 33%;
-}
-
-.container img{
-    opacity: 0.2;
+    margin: 0;
 }
 
 .profile {
@@ -58,6 +83,7 @@ li{
     height: 550px;
     width: 100%;
     background-size: cover;
+    margin: 0;
 }
 
 .profile h1{
@@ -88,4 +114,5 @@ li{
     padding-bottom: 56.25%;
     display: inline-block;
     text-align: center;
+    margin: 0;
 }
