@@ -17,8 +17,6 @@ a{
 .header{
     background-color: aqua;
     height: 300px;
-    width: 1200px;
-    margin-right: 0;
 }
 
 .header-logo{
@@ -75,7 +73,6 @@ img{
     background-image:url(photo0000-5000.jpg) ;
     background-size: cover;
     height: 768px;
-    width: 1200px;
     margin-right: 0;
     margin-top: 0;
 }
@@ -83,7 +80,6 @@ img{
 .profile {
     background-image: url(photo0000-2599.jpg);
     height: 768px;
-    width: 1200px;
     background-size: cover;
     margin-right: 0;
     margin-top: 0;
@@ -140,8 +136,7 @@ img{
 
 @media all and (max-width: 1000px){
 .top-wrapper{
-    width: 1000px;
-    margin-right: 0;
+    width: 100%;
 }
 
 ul{
@@ -149,20 +144,17 @@ ul{
 }
 
 .profile{
-    width: 1000px;
-    margin-right: 0;
+    width: 100%;
 }
 
 .video-wrapper{
-    width: 1000px;
-    margin-right: 0;
+    width: 100%;
 }
 }
 
 @media all and (max-width: 670px){
     .top-wrapper{
-        width: 670px;
-        margin-right: 0;
+        width: 100%;
     }
 
     ul{
@@ -170,11 +162,10 @@ ul{
     }
 
     .profile{
-        width: 670px;
-        margin-right: 0;
+        width: 100%;
     }
 
     .video-wrapper{
-        width: 670px;
+        width: 100%;
     }
 }
