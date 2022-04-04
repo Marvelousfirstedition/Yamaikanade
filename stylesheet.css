@@ -3,7 +3,7 @@
 }
 
 body{
-    margin: 0
+    margin: 0;
 }
 
 a{
@@ -11,26 +11,29 @@ a{
 }
 
 .clear{
-    clear:left
+    clear: left;
 }
 
 .header{
-    background-color: aqua;
-    height: 300px;
+    background-color:deepskyblue;
+    height: 400px;
 }
 
 .header-logo{
     font-size: 80px;
-    color: blueviolet;}
+    color:cornsilk;
+}
 
-ul{
+.header-list{
     text-align: center;
-    font-size: 40px;
+    color:aliceblue;
+    font-size: 30px;
+    padding-right: 10px;
 }
 
 .slider{
     width: 1200px;
-    height: 700px;
+    height: 800px;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -46,12 +49,12 @@ img{
 
 .slider-inner{
     width: 300%;
-    animation: slider 15s infinite ease;
+    animation: slider 20s infinite ease;
 }
 
 @keyframes slider{
     0%{
-        transform: translateX(1);
+        transform: translateX(0);
     }
 
     33%{
@@ -63,55 +66,146 @@ img{
     }
 
     100%{
-        transform: translateX(1);
+        transform: translateX(0);
     }
-
 }
-
 
 .top-wrapper{
-    background-image:url(photo0000-5000.jpg) ;
+    background-image:url(photo0000-0492.jpg);
     background-size: cover;
-    height: 768px;
-    margin-right: 0;
-    margin-top: 0;
+    height: 760px;
+    margin: 0 auto;
 }
 
-.profile {
-    background-image: url(photo0000-2599.jpg);
-    height: 768px;
+.Introduction{
+    background-image: url(photo0000-0515.jpg);
     background-size: cover;
-    margin-right: 0;
-    margin-top: 0;
+    height: 760px;
+    margin: 0 auto;
 }
 
-.profile h1{
+.Introduction p{
+    font-size: 50px;
     text-align: center;
-    font-size: 60px;
-    color:blue;
-    text-shadow: 1px 1px 8px white;
 }
 
-.profile h2{
-    display: inline-block;
+.Introduction ul{
     font-size: 30px;
-    color: azure;
-    text-shadow: 1px 1px 8px white;
-}
-
-.profile p{
     text-align: center;
-    font-size: 60px;
-    color:white;
-    text-shadow: 1px 1px 8px whitesmoke;
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px 10px blue;
 }
 
-.video-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    padding-bottom: 56.25%;
+.Recommendation{
+    background-image: url(photo0000-3847.jpg);
+    background-size: cover;
+    height: 1000px;
+    margin: 0 auto;
+    float: left;
+    width: 33%;
+}
+
+
+.Recommendation p {
+    font-size: 50px;
+    text-align:center;
+}
+
+.Commodity h1 h2 h3{
+    font-size: 50px;
     display: inline-block;
+    margin-top: 25px;
+    color:dodgerblue;
     text-align: center;
-    margin: 0;
+}
+
+.Commodity{
+    position: relative;
+}
+
+.Commodity a{
+    font-size: 40px;
+    color: yellowgreen;
+    display:inline-block;
+    text-align: center;
+}
+
+.others{
+    height: 500px;
+    color:beige;
+}
+
+.others p{
+    font-size: 60px;
+    color:cyan;
+}
+
+.others h2{
+    font-size: 50px;
+    color:aquamarine
+}
+
+.others h1 h3{
+    font-size: 55px;
+    color:lime;
+}
+
+.contact{
+    height: 300px;
+}
+
+.btn{
+    padding: 10px 25px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.Home{
+    background-color:lightgreen;
+    margin-right: 5px;
+}
+
+.all{
+    background-color:lightblue;
+    margin-right: 5px;
+}
+
+.earing{
+    background-color: coral;
+    margin-right: 5px;
+}
+
+.bracelet{
+    background-color: cyan;
+    margin-right: 5px;
+}
+
+.ring{
+    background-color:blueviolet;
+    margin-right: 5px;
+}
+
+.others{
+    background-color: gold;
+    margin-right: 5px;
+}
+
+.okiniiri{
+    background-color: white;
+    margin-right: 20px;
+}
+
+.hisuiame{
+    background-color: cyan;
+    margin-right: 20px;
+}
+
+.naminokoe{
+    background-color:lightblue;
+    margin-right: 20px;
+}
+
+.base{
+    background-color: yellow;
 }
