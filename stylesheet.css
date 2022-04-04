@@ -22,7 +22,7 @@ a{
 }
 
 .header-logo{
-    font-size: 40px;
+    font-size: 80px;
     color: blueviolet;}
 
 ul{
@@ -30,14 +30,14 @@ ul{
 }
 
 .slider{
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     margin: 0 auto;
 }
 
 .slider-item{
-    width: 400px;
+    width: 100%;
     float: left;
 }
 
@@ -73,14 +73,14 @@ img{
 .top-wrapper{
     background-image:url(photo0000-5000.jpg) ;
     background-size: cover;
-    height: 730px;
+    height: 800px;
     width: 100%;
     margin: 0;
 }
 
 .profile {
     background-image: url(photo0000-2599.jpg);
-    height: 550px;
+    height: 600px;
     width: 100%;
     background-size: cover;
     margin: 0;
